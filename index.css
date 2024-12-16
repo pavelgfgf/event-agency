@@ -293,6 +293,8 @@ input:hover, select:hover {
 }
 
 .form-button {
+    text-decoration: none;
+    text-align: center;
     background-color: #008000;
     color: #fff;
     width: 300px;
