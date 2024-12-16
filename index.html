@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Активный отдых для всей семьи</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="headers">
+        <div class="logo">
+            <a href="/">
+                <img src="photo/logo.png" alt="Логотип">
+            </a>
+        </div>
+    <nav class="navigation">
+        <ul>
+            <li><a href="#promtion">Акции</a></li>
+            <li><a href="search.html">Поиск</a></li>
+            <li><a href="booking.html">Управление бронированием</a></li>
+            <li><a href="#reviews">Отзывы</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <section class="slider">
+        <h2>Популярные конкурсы</h2>
+        <div class="slider-container">
+            <!-- Слайд 1 -->
+            <div class="slide active">
+                <img src="photo/Alps.jpeg" alt="Конкурс 1" class="slide-image">
+                <div class="slide-content">
+                    <h3>Историческое путешествие</h3>
+                    <p>Узнай все загадки пещеры. Узнайте больше о возможностях участия!</p>
+                    <div class="rating">
+                        <span>Рейтинг:</span>
+                        <div class="stars">
+                            <span class="before"></span>
+                            <span class="before"></span>
+                            <span class="before"></span>
+                            <span class="before"></span>
+                            <span class="before"></span>
+                        </div>
+                    </div>
+                    <button class="details-btn">Подробнее</button>
+                </div>
+                <!-- Навигация слайдера -->
+                <div class="slider-navigation">
+                    <button class="prev-btn">&lt;</button>
+                    <button class="next-btn">&gt;</button>
+                </div>
+            </div>
+            <!-- Слайд 2 -->
+            <div class="slide">
+                <img src="contest2.jpg" alt="Конкурс 2" class="slide-image">
+                <div class="slide-content">
+                    <h3>Название конкурса 2</h3>
+                    <p>Краткое описание второго конкурса. Подробности внутри!</p>
+                    <div class="rating">
+                        <span>Рейтинг:</span>
+                        <div class="stars">
+                            <img src="star-filled.png" alt="Звезда">
+                            <img src="star-filled.png" alt="Звезда">
+                            <img src="star-filled.png" alt="Звезда">
+                            <img src="star-filled.png" alt="Звезда">
+                            <img src="star-empty.png" alt="Пустая звезда">
+                        </div>
+                    </div>
+                    <button class="details-btn">Подробнее</button>
+                </div>
+                <!-- Навигация слайдера -->
+                <div class="slider-navigation">
+                    <button class="prev-btn">&lt;</button>
+                    <button class="next-btn">&gt;</button>
+                </div>
+            </div>
+        </div>
+        <!-- Индикаторы слайдов -->
+        <div class="slider-indicators">
+            <span class="indicator active"></span>
+            <span class="indicator"></span>
+        </div>
+    </section>
+
+    <!-- Секция алгоритма бронирования -->
+    <section class="booking-process">
+        <h2>Как забронировать участие?</h2>
+        <div class="animation-container">
+            <div class="step">
+                <div class="step-icon">1</div>
+                <p>Выберите конкурс</p>
+            </div>
+            <div class="arrow">→</div>
+            <div class="step">
+                <div class="step-icon">2</div>
+                <p>Заполните заявку</p>
+            </div>
+            <div class="arrow">→</div>
+            <div class="step">
+                <div class="step-icon">3</div>
+                <p>Оплатите участие</p>
+            </div>
+            <div class="arrow">→</div>
+            <div class="step">
+                <div class="step-icon">4</div>
+                <p>Подтвердите бронирование</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-company">
+        <h2>О нашей компании</h2>
+
+        <div class="company-mission">
+            <p>Наша цель: сделать времяпрепровождение незабываемым для семей и друзей.</p>
+            <p>Наш девиз: «Создаем воспоминания на всю жизнь!»</p>
+        </div>
+
+        <!-- Отзывы пользователей -->
+        <div class="reviews" id="reviews">
+            <h3>Отзывы наших клиентов</h3>
+            <div class="reviews-slider">
+                <div class="review">
+                    <div class="reviews-slider">
+                        <div class="review">
+                            <img src="photo/Reviews_1.webp" alt="Фото посещенных мест">
+                            <p>Петров Федор</p>
+                            <p>5 марта 2024</p>
+                            <p>Событие было организовано на высшем уровне! обращаться теперь всегда.</p>
+                        </div>
+                
+                        <div class="review">
+                            <img src="photo/Reviews_1.webp" alt="Фото Черного моря">
+                            <p>Михайлов Андрей</p>
+                            <p>10 мая 2024</p>
+                            <p>Отличная организация мероприятия! <br> Все было на высшем уровне, начиная от регистрации и заканчивая финальным аккордом.</p>
+                        </div>
+                
+                        <div class="review">
+                            <img src="photo/Reviews_2.jpg" alt="Фото гор">
+                            <p>Семенов Павел</p>
+                            <p>20 апреля 2024</p>
+                            <p>У нас c семьей осталить только положительный впечатления!</p>
+                        </div>
+        </div>
+    </div>
+        <div class="review-indicators">
+                <span class="indicator-views active"></span>
+                <span class="indicator-views"></span>
+                <span class="indicator-views"></span>
+            </div>
+    </section>
+
+    <section class="form-search">
+        <form action="#">
+            <div class="form-container">
+            <div class="form-group">
+                <h2>Форма поиска</h2>
+                <label for="region">Выберите регион:</label>
+                <select name="region" id="region" required>
+                    <option value="" disabled selected> Выберите регион</option>
+                    <option value="Сочи">Адлер</option>
+                    <option value="Выборг">Выборг</option>
+                    <option value="Казань">Казань</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="date">Дата поездки:</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+
+            <div class="form-group">
+                <label for="adults">Взрослые (1 - 50):</label>
+                <input type="number" id="adults" name="adults" min="1" max="50" placeholder="0" required>
+            </div>
+            <div class="form-group">
+                <label for="children">Дети (0 - 50):</label>
+                <input type="number" id="children" name="children" min="0" max="50" placeholder="0" required>
+            </div>
+            
+            <button class="form-button"><a href="search.html">Поиск</a></button>
+        </div>
+        </form>
+    </section>
+
+    <section class="promotions" id="promotions">
+        <h2>Наши акции</h2>
+        <div class="promotions-container">
+            <!-- Акция 1 -->
+            <div class="promotion-card">
+                <img src="photo/Alps.jpeg" alt="Акция 1">
+                <div class="promotion-content">
+                    <h3>Скидка 20% на первое бронирование</h3>
+                    <p>Получите скидку на первую поездку при регистрации на нашем сайте</p>
+                    <button class="more-info">Подробнее</button>
+                </div>
+            </div>
+            <!-- Акция 2 -->
+            <div class="promotion-card">
+                <img src="photo/Reviews_2.jpg" alt="Акция 2">
+                <div class="promotion-content">
+                    <h3>Путешествуйте с друзьями выгоднее</h3>
+                    <p>Специальные предложения для семейных поездок и друзей</p>
+                    <button class="more-info">Подробнее</button>
+                </div>
+            </div>
+            <!-- Акция 3 -->
+            <div class="promotion-card">
+                <img src="photo/Reviews_1.webp" alt="Акция 3">
+                <div class="promotion-content">
+                    <h3>Бесплатная экскурсия</h3>
+                    <p>Закажите поездку на 5 дней и получите бесплатную экскурсию.</p>
+                    <button class="more-info">Подробнее</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="subscribe-section">
+        <h2>Форма для подписки на закрытие акции</h2>
+        <form class="subscribe-form">
+            <input type="email" placeholder="Введите Ваш E-mail">
+            <label>
+                <input type="checkbox">
+                Я согласен на обработку персональных данных
+            </label>
+            <button type="submit">Подписаться</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>Телефон: 8 (800) 123-45-67</p>
+        <p>e-mail: mail@sunsouth.ru</p>
+        <nav class="footer-nav">
+            <ul>
+                <li><a href="">Акции</a></li>
+                <li><a href="">Поиск</a></li>
+                <li><a href="">Упраление бронирование</a></li>
+                <li><a href="#reviews">Отзывы</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
