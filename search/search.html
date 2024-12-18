@@ -4,23 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Поиск локаций</title>
+    <link rel="stylesheet" href="search.css">
 </head>
 <body>
     <header class="headers">
         <div class="logo">
             <a href="/">
-                <img src="photo/logo.png" alt="Логотип">
+                <img src="/static/img/logo.png" alt="Логотип">
             </a>
         </div>
     <nav class="navigation">
         <ul>
             <li><a href="#promotions">Акции</a></li>
             <li><a href="search.html">Поиск</a></li>
-            <li><a href="booking.html">Управление бронированием</a></li>
+            <li><a href="/booking/booking.html">Управление бронированием</a></li>
             <li><a href="#reviews">Отзывы</a></li>
         </ul>
     </nav>
     </header>
     
+    <section class="search-location">
+        <h2>Поиск тура</h2>
+        <form class="search">
+            <div class="form-search">
+                <label for="#">Регион:</label>
+                <input type="text" placeholder="Регион" class="region" required>
+            </div>
+           
+            <div class="form-search">
+                <label for="#">Наименование и адрес локации:</label>
+                <input type="number" placeholder="Наименование и адрес локации" class="name-location" required> 
+            </div>
+
+            <div class="form-search">
+                <label for="#">Дата поездки:</label>
+                <input type="data" placeholder="Дата поездки" class="date-trip" required>
+            </div>
+            
+            <div class="form-search">            
+                <label for="#">Количество свободных мест в локации:</label>
+                <input type="text" placeholder="Количество свободных мест в локации" class="free-seat-location" required>
+            </div>
+            
+            <a href="/location/location.html" class="submit-location">Поиск локации</a>
+        </form>
+        </section>
 </body>
 </html>

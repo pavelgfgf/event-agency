@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Выбор локации</title>
+    <link rel="stylesheet" href="location.css">
+</head>
+<body>
+    <header class="headers">
+        <div class="logo">
+            <a href="/">
+                <img src="/static/img/logo.png" alt="Логотип">
+            </a>
+        </div>
+    <nav class="navigation">
+        <ul>
+            <li><a href="#promotions">Акции</a></li>
+            <li><a href="search/search.html">Поиск</a></li>
+            <li><a href="booking/booking.html">Управление бронированием</a></li>
+            <li><a href="#reviews">Отзывы</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <div class="container">
+        <h2>Схема локации</h2>
+        <!-- Схема размещения -->
+        <div class="map-container">
+            <!-- Свободные и забронированные места -->
+            <div class="placement" style="top: 20px; left: 30px;" data-price="500">Место 1</div>
+            <div class="placement booked" style="top: 20px; left: 130px;">Место 2</div>
+            <div class="placement" style="top: 100px; left: 30px;" data-price="700" >Место 3</div>
+            <div class="placement" style="top: 100px; left: 130px;" data-price="800">Место 4</div>
+            <div class="placement booked" style="top: 180px; left: 30px;">Место 5</div>
+            <div class="placement" style="top: 180px; left: 130px;" data-price="600">Место 6</div>
+        </div>
+
+        <!-- Панель с информацией о выбранном месте -->
+        <div class="info-panel" id="info-panel">
+            <p>Выберите свободное место на схеме для получения информации.</p>
+        </div>
+
+        <!-- Кнопка для бронирования -->
+        <a href="#" class="button" id="book-button" >Забронировать</a>
+    </div>
+</body>
+</html>

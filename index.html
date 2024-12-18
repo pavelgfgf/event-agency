@@ -10,12 +10,12 @@
     <header class="headers">
         <div class="logo">
             <a href="/">
-                <img src="static/img/logo.png" alt="Логотип">
+                <img src="/static/img/logo.png" alt="Логотип">
             </a>
         </div>
     <nav class="navigation">
         <ul>
-            <li><a href="#promotion">Акции</a></li>
+            <li><a href="#promotions">Акции</a></li>
             <li><a href="search/search.html">Поиск</a></li>
             <li><a href="booking/booking.html">Управление бронированием</a></li>
             <li><a href="#reviews">Отзывы</a></li>
@@ -40,30 +40,6 @@
                             <span class="before"></span>
                             <span class="before"></span>
                             <span class="before"></span>
-                        </div>
-                    </div>
-                    <button class="details-btn">Подробнее</button>
-                </div>
-                <!-- Навигация слайдера -->
-                <div class="slider-navigation">
-                    <button class="prev-btn">&lt;</button>
-                    <button class="next-btn">&gt;</button>
-                </div>
-            </div>
-            <!-- Слайд 2 -->
-            <div class="slide">
-                <img src="contest2.jpg" alt="Конкурс 2" class="slide-image">
-                <div class="slide-content">
-                    <h3>Название конкурса 2</h3>
-                    <p>Краткое описание второго конкурса. Подробности внутри!</p>
-                    <div class="rating">
-                        <span>Рейтинг:</span>
-                        <div class="stars">
-                            <img src="star-filled.png" alt="Звезда">
-                            <img src="star-filled.png" alt="Звезда">
-                            <img src="star-filled.png" alt="Звезда">
-                            <img src="star-filled.png" alt="Звезда">
-                            <img src="star-empty.png" alt="Пустая звезда">
                         </div>
                     </div>
                     <button class="details-btn">Подробнее</button>
@@ -118,26 +94,26 @@
 
         <!-- Отзывы пользователей -->
         <div class="reviews" id="reviews">
-            <h3>Отзывы наших клиентов</h3>
+            <h3 class="review-head">Отзывы наших клиентов</h3>
             <div class="reviews-slider">
                 <div class="review">
                     <div class="reviews-slider">
                         <div class="review">
-                            <img src="photo/Reviews_1.webp" alt="Фото посещенных мест">
+                            <img src="static/img/Alps.jpeg" alt="Фото посещенных мест">
                             <p>Петров Федор</p>
                             <p>5 марта 2024</p>
                             <p>Событие было организовано на высшем уровне! обращаться теперь всегда.</p>
                         </div>
                 
                         <div class="review">
-                            <img src="photo/Reviews_1.webp" alt="Фото Черного моря">
+                            <img src="static/img/Reviews_1.webp" alt="Фото семейного отдыха">
                             <p>Михайлов Андрей</p>
                             <p>10 мая 2024</p>
                             <p>Отличная организация мероприятия! <br> Все было на высшем уровне, начиная от регистрации и заканчивая финальным аккордом.</p>
                         </div>
                 
                         <div class="review">
-                            <img src="photo/Reviews_2.jpg" alt="Фото гор">
+                            <img src="static/img/Reviews_2.jpg" alt="Фото гор">
                             <p>Семенов Павел</p>
                             <p>20 апреля 2024</p>
                             <p>У нас c семьей осталить только положительный впечатления!</p>
@@ -185,11 +161,11 @@
     </section>
 
     <section class="promotions" id="promotions">
-        <h2>Наши акции</h2>
+        <h2 class="promotions-head">Наши акции</h2>
         <div class="promotions-container">
             <!-- Акция 1 -->
             <div class="promotion-card">
-                <img src="photo/Alps.jpeg" alt="Акция 1">
+                <img src="static/img/Alps.jpeg" alt="Акция 1">
                 <div class="promotion-content">
                     <h3>Скидка 20% на первое бронирование</h3>
                     <p>Получите скидку на первую поездку при регистрации на нашем сайте</p>
@@ -198,7 +174,7 @@
             </div>
             <!-- Акция 2 -->
             <div class="promotion-card">
-                <img src="photo/Reviews_2.jpg" alt="Акция 2">
+                <img src="static/img/Reviews_2.jpg" alt="Акция 2">
                 <div class="promotion-content">
                     <h3>Путешествуйте с друзьями выгоднее</h3>
                     <p>Специальные предложения для семейных поездок и друзей</p>
@@ -207,7 +183,7 @@
             </div>
             <!-- Акция 3 -->
             <div class="promotion-card">
-                <img src="photo/Reviews_1.webp" alt="Акция 3">
+                <img src="static/img/Reviews_1.webp" alt="Акция 3">
                 <div class="promotion-content">
                     <h3>Бесплатная экскурсия</h3>
                     <p>Закажите поездку на 5 дней и получите бесплатную экскурсию.</p>
@@ -218,7 +194,7 @@
     </section>
 
     <section class="subscribe-section">
-        <h2>Форма для подписки на закрытие акции</h2>
+        <h2 class="subscribe-head">Форма для подписки на закрытие акции</h2>
         <form class="subscribe-form">
             <input type="email" placeholder="Введите Ваш E-mail">
             <label>
